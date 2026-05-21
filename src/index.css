@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap");
+
+@theme {
+  /* dark mode default */
+  --color-primary: #ffd300;
+  --color-white: #f8f8f8;
+  --color-black: #0a0a0a;
+  --color-dark-gray: #262b32;
+  --color-gray: #757b81;
+
+  --shadow-button: 0 0 8px var(--shadow-color);
+  --font-inter: "Inter", san-serif;
+}
+
+:root {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
