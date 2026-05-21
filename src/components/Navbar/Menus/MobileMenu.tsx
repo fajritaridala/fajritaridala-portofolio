@@ -20,11 +20,11 @@ export default function MobileMenu() {
 
       <div
         onClick={() => setIsOpenMenu(!isOpenMenu)}
-        className={`fixed top-0 left-0 h-dvh w-full bg-black/40 backdrop-blur-lg transition-opacity duration-400 ease-in-out ${isOpenMenu ? "opacity-100" : "pointer-events-none opacity-0"}`}
+        className={`fixed -top-4 -left-6 z-10 flex h-dvh w-screen justify-end-safe bg-black/90 backdrop-blur-2xl transition-opacity duration-400 ease-in-out ${isOpenMenu ? "opacity-100" : "pointer-events-none opacity-0"}`}
       >
         {/* sidebar menu */}
         <div
-          className={`border-dark-gray fixed top-0 right-0 flex h-dvh w-4/5 flex-col justify-between border-l bg-black p-8 transition-transform duration-300 ease-in-out ${isOpenMenu ? "translate-0" : "translate-x-full"}`}
+          className={`border-dark-gray flex h-dvh w-4/5 flex-col justify-between border-l bg-black p-8 transition-transform duration-300 ease-in-out ${isOpenMenu ? "translate-0" : "translate-x-full"}`}
         >
           <div>
             <h2 className="text-primary mb-6 text-lg font-semibold uppercase">

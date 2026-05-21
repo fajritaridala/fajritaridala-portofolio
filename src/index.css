@@ -17,4 +17,5 @@
   background-color: var(--color-black);
   color: var(--color-white);
   font-family: var(--font-inter);
+  overflow-x: hidden;
 }
