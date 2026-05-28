@@ -1,0 +1,38 @@
+@theme {
+  /* dark */
+  --color-base: hsl(0, 0%, 7%);
+  --color-base-dark: hsl(0, 0%, 4%);
+  --color-base-light: hsl(0, 0%, 11%);
+
+  /* gray */
+  --color-neutral: hsl(0, 0%, 35%);
+  --color-neutral-dark: hsl(0, 0%, 20%);
+  --color-neutral-light: hsl(0, 0%, 50%);
+
+  /* light */
+  --color-surface: hsl(0, 0%, 88%);
+  --color-surface-dark: hsl(0, 0%, 70%);
+  --color-surface-light: hsl(0, 0%, 96%);
+
+  /* accent */
+  --color-accent: hsl(48, 96%, 53%);
+  --color-accent-dark: hsl(48, 90%, 42%);
+  --color-accent-light: hsl(48, 100%, 65%);
+
+  /* backgrounds */
+  --color-bg-primary: var(--color-base);
+  --color-bg-secondary: var(--color-accent-dark);
+  --color-bg-dark: var(--color-base-dark);
+  --color-bg-light: var(--color-base-light);
+
+  /* texts */
+  --color-txt-primary: var(--color-surface);
+  --color-txt-secondary: var(--color-neutral-light);
+  --color-txt-accent: var(--color-accent);
+  --color-txt-dark: var(--color-base);
+  --color-txt-muted: var(--color-neutral-dark);
+
+  /* borders */
+  --color-bdr-primary: var(--color-neutral-dark);
+  --color-bdr-secondary: var(--color-accent-dark);
+}

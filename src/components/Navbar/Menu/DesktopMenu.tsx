@@ -15,7 +15,7 @@ export default function DesktopMenu() {
           <li key={item.id}>
             <a
               href={item.href}
-              className="text-gray capitalize transition-colors duration-300 ease-in-out hover:text-white"
+              className="text-txt-secondary hover:text-txt-primary capitalize transition-colors duration-300 ease-in-out"
             >
               {item.label}
             </a>
@@ -29,7 +29,7 @@ export default function DesktopMenu() {
           href={NAVBAR_CONTENT.button.cv.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-primary/90 hover:bg-primary shadow-button shadow-primary/50 hover:shadow-primary flex items-center-safe justify-center-safe gap-1 rounded-full px-6 py-3 text-black"
+          className="btn-primary flex items-center-safe justify-center-safe gap-1 rounded-full px-6 py-3"
         >
           <p className="font-medium capitalize">
             {NAVBAR_CONTENT.button.cv.label}

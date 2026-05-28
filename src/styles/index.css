@@ -1,0 +1,16 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monsieur+La+Doulaise&display=swap");
+
+/* tailwind-css */
+@import "tailwindcss";
+
+/* custom-css */
+@import "./_colors.css";
+@import "./_effects.css";
+
+/* global styles */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-bg-dark);
+  color: var(--color-txt-primary);
+}

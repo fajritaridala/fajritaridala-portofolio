@@ -1,5 +1,5 @@
 const NAVBAR_CONTENT = {
-  heading: "fajritaridala",
+  heading: "fajri.",
   label: "navigation",
   links: [
     {
