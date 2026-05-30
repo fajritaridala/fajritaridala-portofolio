@@ -26,8 +26,8 @@ const BrandIcon = [
 
 export default function Hero() {
   return (
-    <section className="relative w-full items-center px-6 pt-20 lg:flex lg:h-screen lg:px-18 lg:pt-0">
-      <div className="border-base mt-4 flex w-full flex-col rounded-3xl px-6 py-12 lg:mt-0 lg:flex-row lg:py-18">
+    <section className="relative w-full px-6 pt-20 lg:h-screen lg:px-18 lg:pt-26">
+      <div className="border-base mt-4 flex w-full flex-col rounded-3xl px-6 py-12 lg:mt-0 lg:flex-row">
         {/* left-content-start */}
         <div className="flex w-full flex-col items-center-safe justify-center-safe lg:w-1/2">
           <div className="profile-picture size-32 lg:size-46">
@@ -38,10 +38,10 @@ export default function Hero() {
             />
           </div>
           <div className="mt-6 text-center lg:mt-10">
-            <h1 className="text-txt-light text-2xl font-bold tracking-tight capitalize lg:mb-3 lg:text-4xl">
+            <h1 className="text-txt-light text-2xl font-bold tracking-tight capitalize lg:mb-2 lg:text-3xl">
               {HERO_CONTENT.name}
             </h1>
-            <p className="text-txt-secondary text-lg font-medium tracking-wide capitalize lg:text-xl">
+            <p className="text-txt-secondary text-lg font-medium tracking-wide capitalize">
               {HERO_CONTENT.job}
             </p>
           </div>
@@ -59,7 +59,7 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 key={brand.name}
               >
-                <brand.icon className="hover:text-txt-light text-txt-secondary size-10 rounded-lg p-1" />
+                <brand.icon className="hover:text-txt-light text-txt-secondary size-10 rounded-lg p-1 lg:size-8" />
               </a>
             ))}
             <span className="monochrome-line-gradient-to-r"></span>
@@ -67,7 +67,7 @@ export default function Hero() {
           <h2 className="text-txt-light text-3xl leading-tight font-bold tracking-tight capitalize lg:text-5xl">
             {HERO_CONTENT.hero_headline}
           </h2>
-          <p className="text-txt-secondary leading-relaxed font-medium first-letter:capitalize lg:text-xl">
+          <p className="text-txt-secondary leading-relaxed font-medium first-letter:capitalize">
             {HERO_CONTENT.sub_headline}
           </p>
           <button className="mt-10 flex w-full justify-center-safe">
