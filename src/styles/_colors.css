@@ -30,9 +30,11 @@
   --color-txt-secondary: var(--color-neutral-light);
   --color-txt-accent: var(--color-accent);
   --color-txt-dark: var(--color-base);
+  --color-txt-light: var(--color-surface-light)
   --color-txt-muted: var(--color-neutral-dark);
 
   /* borders */
   --color-bdr-primary: var(--color-neutral-dark);
   --color-bdr-secondary: var(--color-accent-dark);
+  --color-bdr-light: var(--color-surface);
 }

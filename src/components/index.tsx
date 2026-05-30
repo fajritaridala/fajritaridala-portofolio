@@ -1,3 +1,4 @@
-import Home from "./Home";
+import Hero from "./Home/Hero";
+import Skills from "./Home/Skills";
 
-export { Home };
+export { Hero, Skills };

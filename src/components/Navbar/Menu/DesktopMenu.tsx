@@ -1,13 +1,7 @@
-import { useRef } from "react";
-import { NAVBAR_CONTENT } from "../../../data/contents";
-import {
-  ArrowUpRightIcon,
-  type ArrowUpRightIconHandle,
-} from "../../ui/arrow-up-right";
+import { NAVBAR_CONTENT } from "../../../contents";
+import { IconArrowUpRight } from "@tabler/icons-react";
 
 export default function DesktopMenu() {
-  const iconRef = useRef<ArrowUpRightIconHandle>(null);
-
   return (
     <div className="hidden h-full w-full items-center-safe justify-between lg:flex">
       <ul className="flex gap-10">
@@ -24,8 +18,6 @@ export default function DesktopMenu() {
       </ul>
       <button className="h-full">
         <a
-          onMouseEnter={() => iconRef.current?.startAnimation()}
-          onMouseLeave={() => iconRef.current?.stopAnimation()}
           href={NAVBAR_CONTENT.button.cv.href}
           target="_blank"
           rel="noopener noreferrer"
@@ -34,7 +26,7 @@ export default function DesktopMenu() {
           <p className="font-medium capitalize">
             {NAVBAR_CONTENT.button.cv.label}
           </p>
-          <ArrowUpRightIcon size={18} ref={iconRef} />
+          <IconArrowUpRight size={18} />
         </a>
       </button>
     </div>

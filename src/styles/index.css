@@ -5,8 +5,8 @@
 @import "tailwindcss";
 
 /* custom-css */
-@import "./_colors.css";
-@import "./_effects.css";
+@import "./_colors";
+@import "./_utility";
 
 /* global styles */
 body {

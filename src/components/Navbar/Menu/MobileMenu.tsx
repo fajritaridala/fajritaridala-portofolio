@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { NAVBAR_CONTENT } from "../../../data/contents";
-import { ArrowUpRightIcon } from "../../ui/arrow-up-right";
-import { MenuIcon } from "../../ui/menu";
+import { NAVBAR_CONTENT } from "../../../contents";
+import { IconMenu2, IconArrowUpRight } from "@tabler/icons-react";
 
 export default function MobileMenu() {
   const [isOpenMenu, setIsOpenMenu] = useState<boolean>(false);
@@ -15,7 +14,7 @@ export default function MobileMenu() {
         onClick={() => setIsOpenMenu(!isOpenMenu)}
         className="text-txt-primary active:bg-bg-light rounded-lg p-1 transition-colors duration-75 ease-in-out"
       >
-        <MenuIcon size={24} />
+        <IconMenu2 size={24} />
       </button>
 
       {/* sidebar-start */}
@@ -36,10 +35,12 @@ export default function MobileMenu() {
                 <li key={item.id}>
                   <a
                     href={item.href}
-                    className="active:bg-bg-primary mb-1 flex gap-6 rounded-xl p-4 text-lg capitalize"
+                    className="active:bg-bg-light hover:bg-bg-light mb-1 flex gap-6 rounded-xl p-4"
                   >
-                    <p>{item.id}</p>
-                    <p>{item.label}</p>
+                    <p className="inline-flex items-center-safe text-sm">
+                      {item.id}
+                    </p>
+                    <p className="text-lg capitalize">{item.label}</p>
                   </a>
                 </li>
               ))}
@@ -55,7 +56,7 @@ export default function MobileMenu() {
             >
               <p>{NAVBAR_CONTENT.button.cv.label}</p>
               <div className="flex items-center-safe justify-center-safe">
-                <ArrowUpRightIcon size={24} />
+                <IconArrowUpRight size={24} />
               </div>
             </a>
           </button>

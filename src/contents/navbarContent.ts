@@ -1,5 +1,5 @@
 const NAVBAR_CONTENT = {
-  heading: "fajri.",
+  heading: "fajri",
   label: "navigation",
   links: [
     {
@@ -19,8 +19,8 @@ const NAVBAR_CONTENT = {
     },
     {
       id: "04",
-      href: "/certicate",
-      label: "certificate",
+      href: "/certificates",
+      label: "certificates",
     },
     {
       id: "05",
@@ -31,7 +31,7 @@ const NAVBAR_CONTENT = {
   button: {
     cv: {
       label: "download cv",
-      href: "https://drive.google.com/uc?export=download&id=16sA-yZe8nBFjCYYAZFiBjL3eB4PitF_c",
+      href: "https://drive.google.com/uc?export=download&id=1W1pJmoBwo5T951QLCLlfK_AKv_uevS2Z",
     },
   },
 };
