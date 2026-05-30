@@ -26,7 +26,7 @@ const BrandIcon = [
 
 export default function Hero() {
   return (
-    <section className="relative w-full px-6 pt-20 lg:h-screen lg:px-18 lg:pt-26">
+    <section className="relative w-full pt-20 lg:h-screen lg:pt-26">
       <div className="border-base mt-4 flex w-full flex-col rounded-3xl px-6 py-12 lg:mt-0 lg:flex-row">
         {/* left-content-start */}
         <div className="flex w-full flex-col items-center-safe justify-center-safe lg:w-1/2">

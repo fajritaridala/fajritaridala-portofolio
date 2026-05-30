@@ -15,7 +15,7 @@ export default function App() {
         <Route
           path="/"
           element={
-            <main className="relative h-1000">
+            <main className="relative h-1000 border px-6 lg:px-18">
               <div className="absolute inset-0 z-0 h-full">
                 <DotGrid
                   dotSize={3}
