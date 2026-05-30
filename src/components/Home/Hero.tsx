@@ -26,8 +26,8 @@ const BrandIcon = [
 
 export default function Hero() {
   return (
-    <section className="relative w-full px-6 pt-20 lg:px-18">
-      <div className="border-base mt-4 flex h-full w-full flex-col rounded-3xl px-6 py-12 lg:mt-10 lg:flex-row lg:py-18">
+    <section className="relative w-full items-center px-6 pt-20 lg:flex lg:h-screen lg:px-18 lg:pt-0">
+      <div className="border-base mt-4 flex w-full flex-col rounded-3xl px-6 py-12 lg:mt-0 lg:flex-row lg:py-18">
         {/* left-content-start */}
         <div className="flex w-full flex-col items-center-safe justify-center-safe lg:w-1/2">
           <div className="profile-picture size-32 lg:size-46">
