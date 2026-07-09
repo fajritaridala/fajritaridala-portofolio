@@ -4,34 +4,34 @@ const NAVBAR_CONTENT = {
   links: [
     {
       id: "01",
-      href: "/",
+      href: "#hero",
       label: "home",
     },
     {
       id: "02",
-      href: "/skills",
+      href: "#skills",
       label: "skills",
     },
     {
       id: "03",
-      href: "/portfolio",
+      href: "#portfolio",
       label: "portfolio",
     },
     {
       id: "04",
-      href: "/certificates",
+      href: "#certificates",
       label: "certificates",
     },
     {
       id: "05",
-      href: "/contact",
+      href: "#contact",
       label: "contact",
     },
   ],
   button: {
     cv: {
       label: "download cv",
-      href: "https://drive.google.com/uc?export=download&id=1W1pJmoBwo5T951QLCLlfK_AKv_uevS2Z",
+      href: "/src/assets/my-resume.pdf",
     },
   },
 };

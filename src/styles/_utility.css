@@ -4,8 +4,8 @@
   --shadow-glow: 0 0 15px 0 var(--color-accent);
 }
 
-/* borders */
-@utility border-base {
+/* card */
+@utility card-base {
   border: 1px solid var(--color-bdr-primary);
   background-color: color-mix(
     in srgb,
@@ -14,13 +14,27 @@
   );
 }
 
-@utility border-base-accent {
+@utility card-base-accent {
   border: 1px solid var(--color-bdr-secondary);
   background-color: color-mix(
     in srgb,
     var(--color-bg-primary) 75%,
     transparent
   );
+}
+
+@utility card-glass {
+  backdrop-filter: blur(10px);
+  background-color: color-mix(
+    in srgb,
+    var(--color-bg-primary) 10%,
+    transparent
+  );
+  border-radius: 20px;
+  border: 2px solid;
+  /*               atas        kanan              bawah              kiri */
+  border-color: var(--color-base) var(--color-base-light)
+    var(--color-base-light) var(--color-base);
 }
 
 /* buttons */

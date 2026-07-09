@@ -7,7 +7,7 @@ export default function MobileMenu() {
 
   return (
     <div className="flex w-full items-center-safe justify-between lg:hidden">
-      <h1 className="text-txt-primary text-lg font-semibold capitalize">
+      <h1 className="text-txt-primary text-xl font-bold capitalize">
         {NAVBAR_CONTENT.heading}
       </h1>
       <button
